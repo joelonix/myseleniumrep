@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="RyanAirDemo" verbose="3" parallel="false"	preserve-order="true" time-out="600000">
+
+    <test name="BookingDeclinedTest"><classes><class name="com.ryanair.testcases.BookingDeclinedTest"></class></classes></test>
+   
+</suite>
